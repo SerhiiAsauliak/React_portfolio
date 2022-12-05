@@ -3,6 +3,14 @@ import './footer.css'
 
 export const Footer = () => {
   return (
-    <section>Footer</section>
+    <footer id='footer'>
+      <ul className='permalinks'>
+        <li><a href='#'>Header</a></li>
+        <li><a href='#about'>About</a></li>
+        <li><a href='#experience'>Experience</a></li>
+        <li><a href='#portfolio'>Portfolio</a></li>
+        <li><a href='#contacts'>Contacts</a></li>
+      </ul>
+    </footer>
   )
 }

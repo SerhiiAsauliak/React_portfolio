@@ -12,7 +12,7 @@ export const Header = () => {
         <h1>Serhii Asauliak</h1>
         <h5>Frontend Developer</h5>
         <HeaderButtons/>
-        <a href="#contact" className='scroll__down'>Scroll Down</a>
+        <a href="#footer" className='scroll__down'>Scroll Down</a>
         <HeaderSocials/>
         <div className="me">
           <img src={Photo} alt="me" />
