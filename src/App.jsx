@@ -12,8 +12,8 @@ export const App = () => {
       <Header/>
       <Nav/>
       <About/>
-      <Contact/>
       <Experience/>
+      <Contact/>
       <Footer/>
     </>
   )
