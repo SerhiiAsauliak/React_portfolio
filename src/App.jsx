@@ -10,10 +10,10 @@ export const App = () => {
   return (
     <>
       <Header/>
+      <Nav/>
       <About/>
       <Contact/>
       <Experience/>
-      <Nav/>
       <Footer/>
     </>
   )

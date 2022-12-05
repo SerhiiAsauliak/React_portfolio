@@ -1,8 +1,23 @@
 import React from 'react'
+import { HeaderButtons } from './HeaderButtons'
 import "./header.css"
+import Photo from '../../assets/me.png'
+import { HeaderSocials } from './HeaderSocials'
 
 export const Header = () => {
   return (
-    <div>Header</div>
+    <header>
+      <div className="container header__container">
+        <h5>Hello I'm</h5>
+        <h1>Serhii Asauliak</h1>
+        <h5>Frontend Developer</h5>
+        <HeaderButtons/>
+        <a href="#contact" className='scroll__down'>Scroll Down</a>
+        <HeaderSocials/>
+        <div className="me">
+          <img src={Photo} alt="me" />
+        </div>
+      </div>
+    </header>
   )
 }
