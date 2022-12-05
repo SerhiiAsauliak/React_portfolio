@@ -5,6 +5,7 @@ import { Contact } from './components/contact/Contact';
 import { Experience } from './components/experience/Experience';
 import { Nav } from './components/nav/Nav';
 import { Footer } from './components/footer/Footer';
+import { Portfolio } from './components/portfolio/Portfolio';
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
       <Nav/>
       <About/>
       <Experience/>
+      <Portfolio/>
       <Contact/>
       <Footer/>
     </>

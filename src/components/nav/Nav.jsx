@@ -17,7 +17,7 @@ export const Nav = () => {
         <a className={activeNav === '#about' ? 'active' : ''} onClick={() => setActiveNav("#about")} href="#about" alt="user-icon">
           <AiOutlineUser />
         </a>
-        <a className={activeNav === '#services' ? 'active' : ''} onClick={() => setActiveNav('#services')} href="#services" alt="book-icon">
+        <a className={activeNav === '#portfolio' ? 'active' : ''} onClick={() => setActiveNav('#portfolio')} href="#portfolio" alt="book-icon">
           <BiBookBookmark />
         </a>
         <a className={activeNav === '#contacts' ? 'active' : ''} onClick={() => setActiveNav('#contacts')} href="#contacts" alt="message-icon">
