@@ -8,4 +8,6 @@ export const HeaderButtons = () => {
         <a className='btn btn-primary' href='#contacts'>Let's talk</a>
     </div>
   )
+  
 }
+ 
