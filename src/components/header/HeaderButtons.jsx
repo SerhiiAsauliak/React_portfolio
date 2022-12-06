@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/CV_Junior_Frontend_Developer_Serhii_Asauliak_Nov2022_Eng.pdf'
+import CV from '../../assets/CV_Junior Frontend Developer_Serhii Asauliak_Nov2022_Eng.pdf'
 
 export const HeaderButtons = () => {
   return (
@@ -8,6 +8,6 @@ export const HeaderButtons = () => {
         <a className='btn btn-primary' href='#contacts'>Let's talk</a>
     </div>
   )
-  
+
 }
  
