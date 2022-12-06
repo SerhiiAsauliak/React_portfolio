@@ -10,7 +10,6 @@ export const Nav = () => {
 
   return (
     <nav>
-      <div className="nav">
         <a className={activeNav === '#' ? 'active' : ''} onClick={() => setActiveNav("#")} href="#" alt="home-icon">
           <AiOutlineHome />
         </a>
@@ -23,7 +22,6 @@ export const Nav = () => {
         <a className={activeNav === '#contacts' ? 'active' : ''} onClick={() => setActiveNav('#contacts')} href="#contacts" alt="message-icon">
           <MdOutlineMessage />
         </a>
-      </div>
     </nav>
   );
 };

@@ -1,51 +1,27 @@
-import IMG1 from '../assets/portfolio1.jpg'
-import IMG2 from '../assets/portfolio2.jpg'
-import IMG3 from '../assets/portfolio3.jpg'
-import IMG4 from '../assets/portfolio4.jpg'
-import IMG5 from '../assets/portfolio5.png'
-import IMG6 from '../assets/portfolio6.jpg'
+import Pizza from '../assets/pizza.png'
+import Marvel from '../assets/marvel.png'
+import Git from '../assets/git-search.png'
 
 export const data = [
     {
         id:1,
-        image: IMG1,
-        title: 'some item title',
-        github: 'https://github.com',
-        demo: 'https://cdn.dribbble.com/users/1187002/screenshots/16673715/media/faff0b2da6c5b48c1a6c5de1bb4c7746.jpg?compress=1&resize=1000x750&vertical=top'
+        image: Marvel,
+        title: 'Marvel search',
+        github: 'https://github.com/SerhiiAsauliak/React_project_marvel',
+        demo: 'https://react-project-marvel.vercel.app/'
     },
     {
         id:2,
-        image: IMG2,
-        title: 'some item title',
-        github: 'https://github.com',
-        demo: 'https://cdn.dribbble.com/users/1187002/screenshots/16673715/media/faff0b2da6c5b48c1a6c5de1bb4c7746.jpg?compress=1&resize=1000x750&vertical=top'
+        image: Pizza,
+        title: 'Pizza store',
+        github: 'https://github.com/SerhiiAsauliak/React-TypeScript_Project_Pizza',
+        demo: 'https://react-type-script-project-pizza.vercel.app'
     },
     {
         id:3,
-        image: IMG3,
-        title: 'some item title',
-        github: 'https://github.com',
-        demo: 'https://cdn.dribbble.com/users/1187002/screenshots/16673715/media/faff0b2da6c5b48c1a6c5de1bb4c7746.jpg?compress=1&resize=1000x750&vertical=top'
-    },
-    {
-        id:4,
-        image: IMG4,
-        title: 'some item title',
-        github: 'https://github.com',
-        demo: 'https://cdn.dribbble.com/users/1187002/screenshots/16673715/media/faff0b2da6c5b48c1a6c5de1bb4c7746.jpg?compress=1&resize=1000x750&vertical=top'
-    },
-    {
-        id:5,
-        image: IMG5,
-        title: 'some item title',
-        github: 'https://github.com',
-        demo: 'https://cdn.dribbble.com/users/1187002/screenshots/16673715/media/faff0b2da6c5b48c1a6c5de1bb4c7746.jpg?compress=1&resize=1000x750&vertical=top'
-    },
-    {
-        id:6,
-        image: IMG6,
-        title: 'some item title',
-        github: 'https://github.com',
-        demo: 'https://cdn.dribbble.com/users/1187002/screenshots/16673715/media/faff0b2da6c5b48c1a6c5de1bb4c7746.jpg?compress=1&resize=1000x750&vertical=top'
+        image: Git,
+        title: 'Git search',
+        github: 'https://github.com/SerhiiAsauliak/React-TypeScript_exp_project_Search-GithubUsers',
+        demo: 'https://react-type-script-exp-project-search-github-users.vercel.app/'
     }
 ]

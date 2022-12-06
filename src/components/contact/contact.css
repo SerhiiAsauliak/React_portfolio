@@ -45,6 +45,10 @@ form {
     gap: 1.5rem;
 }
 
+form button {
+    font-size: 1rem;
+}
+
 input, textarea {
     width: 100%;
     background: transparent;
