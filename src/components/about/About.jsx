@@ -1,9 +1,7 @@
 import React from "react";
 import "./about.css";
-import MeAbout from "../../assets/me-about.jpg";
 import Screen from "../../assets/screenjpg.jpg";
 import { FaAward } from "react-icons/fa";
-import { VscFolderLibrary } from "react-icons/vsc";
 import {AiFillFolderOpen} from 'react-icons/ai'
 
 export const About = () => {

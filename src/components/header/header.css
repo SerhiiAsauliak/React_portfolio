@@ -1,5 +1,5 @@
 header {
-    padding-top: 7rem;
+    padding-top: 4rem;
     overflow: hidden;
     height: 100vh;
 }
@@ -60,19 +60,25 @@ header {
 
 /*===== Media Queries (MEDIUM) ======*/
 @media screen and (max-width: 1024px) {
-    header{
-        height: 68vh; 
-    }
-
+    
 }
 
 /*===== Media Queries (SMALL) ======*/
 @media screen and (max-width: 600px) {
     header{
+        padding-top: 1.5rem;
         height: 100vh;   
+    }
+
+    header h1 {
+        font-size: 1.8rem;
     }
     .header__socials, .scroll__down {
         display: none;
+    }
+
+    .header__buttons {
+        margin: 1rem 0;
     }
 
     .me {
