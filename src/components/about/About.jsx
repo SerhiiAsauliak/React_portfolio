@@ -29,8 +29,8 @@ export const About = () => {
             </article>
           </div>
           <p>
-            A Front-End Developer with entry-level experience specializing in
-            web development. Actively looking for work to use received skills. I
+            I am Front-End Developer with entry-level experience specializing in
+            web development and i also have experiance in realization fullstack MERN projects. Actively looking for work to use received skills. I
             want to develop in this direction and for about 6 months I've been
             actively studying the necessary technologies. Self-learning,
             attentive and responsible.

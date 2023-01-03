@@ -10,7 +10,7 @@ export const Header = () => {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Serhii Asauliak</h1>
-        <h5>Frontend Developer</h5>
+        <h5>Frontend/React (Fullstack) Developer</h5>
         <HeaderButtons/>
         <a href="#footer" className='scroll__down'>Scroll Down</a>
         <HeaderSocials/>

@@ -12,6 +12,8 @@ import {FaGitSquare} from 'react-icons/fa'
 import {AiOutlineConsoleSql} from 'react-icons/ai'
 import {AiOutlineApi} from 'react-icons/ai'
 import {AiFillApi} from 'react-icons/ai'
+import {SiExpress} from 'react-icons/si'
+import {SiMongodb} from 'react-icons/si'
 
 
 export const Experience = () => {
@@ -59,8 +61,16 @@ export const Experience = () => {
               <h4>NodeJS</h4>
             </article>
             <article className='experience__details'>
+              <SiExpress className='experience__details-icon'/>
+              <h4>Express</h4>
+            </article>
+            <article className='experience__details'>
               <AiOutlineConsoleSql className='experience__details-icon'/>
               <h4>SQL</h4>
+            </article>
+            <article className='experience__details'>
+              <SiMongodb className='experience__details-icon'/>
+              <h4>MongoDB</h4>
             </article>
             <article className='experience__details'>
               <AiOutlineApi className='experience__details-icon'/>
