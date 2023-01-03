@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/CV_Junior Frontend Developer_Serhii Asauliak_Nov2022_Eng.pdf'
+import CV from '../../assets/CV_Junior Frontend-Fullstack Developer_Serhii Asauliak_Nov2022_Eng.pdf'
 
 export const HeaderButtons = () => {
   return (
