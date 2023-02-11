@@ -2,6 +2,7 @@ import Pizza from '../assets/pizza.png'
 import Marvel from '../assets/marvel.png'
 import Git from '../assets/git-search.png'
 import Jobify from '../assets/jobify.png'
+import Restaurant from '../assets/restaurant.png'
 
 export const data = [
     {
@@ -27,6 +28,13 @@ export const data = [
     },
     {
         id:4,
+        image: Restaurant,
+        title: 'Restaurant',
+        github: 'https://github.com/SerhiiAsauliak/React_Restaurant-App',
+        demo: 'https://react-restaurant-app-seven.vercel.app/'
+    },
+    {
+        id:5,
         image: Git,
         title: 'Git search',
         github: 'https://github.com/SerhiiAsauliak/React-TypeScript_exp_project_Search-GithubUsers',
